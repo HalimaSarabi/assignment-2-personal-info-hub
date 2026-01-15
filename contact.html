@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="Index.html"> Home </a></li>
+                <li><a href="about.html"> About Me </a></li>
+                <li> <a href="gallary.html"> My Gallary</a></li>
+                <li> <a href="contact.html"> Contact Me </a></li>
+                <form class="search-bar">
+                    <input type="search" placeholder="Search...">
+                    <button type="submit">🔍</button>
+                </form>
+            </ul>
+           
+        </nav>
+            
+    </header>
+    <main>
+        <section>
+            <h1> Contact Me</h1>
+        </section>
+        <section >
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female" required>
+                <label for="female">Female</label><br><br>
+                <label>Interests:</label><br>
+                <input type="checkbox" id="web" name="interest" value="Web Development" required>
+                <label for="web">Web Development</label><br>
+                <input type="checkbox" id="coding" name="interest" value="Coding" required>
+                <label for="coding">Coding</label><br>
+                <input type="checkbox" id="design" name="interest" value="Design" required>
+                <label for="design">Design</label><br><br>
+                <input type="submit" value="Submit" required>
+
+                <p><strong>Note:</strong> Contact me directly by email:
+                    <a href="mailto:halima.sarabi84@gmail.com">halima.sarabi84@gmail.com</a>
+                </p>
+            </form>  
+        </section>
+    </main>
+    <footer>
+        <h3>Rate My Site</h3>
+
+        <div class="rating" >
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">★</label>
+        
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4"></label>
+        
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">★</label>
+        
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">★  </label>
+        
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">★</label>
+            
+        </div>
+    </footer>
+</body>
+</html>
